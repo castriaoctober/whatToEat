@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <div id="welcome">Hi^^</div>
+        <div class="ltr">HI</div>
     </header>
+
+    <div class="canteenSelector-container">
+    <label for="canteenSelector">请选择你的目标地点</label>
      <select id="canteenSelector">
         <option value="">随机生成</option>
         <option value="家园食堂">家园食堂</option>
@@ -18,9 +21,22 @@
         <option value="学五食堂">学五食堂</option>
         <option value="燕南美食">燕南美食</option>
      </select>
+    </div>
+ 
+    <div class="button-container">
      <button>click me!</button>
+    </div>
+
+     <div class="result-container">
+     <label for="resultCanteen">地点</label> 
      <p id="resultCanteen"></p>
+     </div>
+
+     <div class="result-container">
+     <label for="resultCanteen">食物</label>
      <p id="resultFood"></p>
+    </div>
+
      <script type="text/javascript" src="./index.js"></script>
 </body>
 

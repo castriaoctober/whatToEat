@@ -29,8 +29,7 @@ canteenSelector.addEventListener("change", (e) => {
   if (selectedCanteen) {
     resultCanteen.textContent = `${selectedCanteen}`;
   } else {
-    selectedCanteen = generateItem(AllData.canteens);
-    resultCanteen.textContent = `${selectedCanteen}`;
+    resultCanteen.textContent = ``;
   }
 });
 
